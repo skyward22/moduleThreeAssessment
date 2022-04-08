@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: 100vh;
+	background-color: rgb(252, 252, 205);
+}
+
+nav {
+	border-bottom: 2px solid rgb(15, 10, 1);
+	justify-content: flex-start;
+}
+
+.profile {
+	justify-content: flex-start;
+	margin-left: 550px;
+}
+
+p {
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+
+.color1 {
+    background-color: rgb(236, 244, 144);
+    height: 23vh;
+    width: 100%;
+}
+.color2 {
+    background-color: rgb(146, 249, 251);
+    height: 23vh;
+    width: 100%;
+}
+.color3 {
+    background-color: rgb(149, 234, 174);
+    height: 20vh;
+    width: 100%;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb1 {
+	margin-right: 2em;
+	display: inline;
+	margin-left: 30px;
+}
+.crumb2 {
+	margin-right: 2em;
+	display: inline;
+	margin-left: 100px;
+}
+.crumb3 {
+	margin-right: 2em;
+	display: inline;
+	margin-left: 100px;
+}
+
+.button1 {
+	justify-content: flex-start;
+	display: inline-flex;
+	justify-content:flex-start;
+	margin-left: 200px;
+}
+
+.button2 {
+	justify-content: flex-start;
+	display: inline-flex;
+	justify-content:flex-start;
+	margin-left: 200px;
+}
+
+.button3 {
+	justify-content: flex-start;
+	display: inline-flex;
+	justify-content:flex-start;
+	margin-left: 200px;
+}
+
+#color {
+	background-color: yellow;
+	height: 50px;
+	width: 150px;
+}
+
+#place {
+	background-color: yellow;
+	height: 50px;
+	width: 150px;
+}
+
+#ritual {
+	background-color: yellow;
+	height: 50px;
+	width: 150px;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 800px;
+	margin-left: 535px;
+}
