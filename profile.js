@@ -5,7 +5,6 @@
 
 // const ritual = document.getElementById("#ritual")
 
-
 const color = document.getElementById('color')
 
 function colorButton(event){

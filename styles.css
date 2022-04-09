@@ -2,8 +2,22 @@ body {
     margin: 0;
     height: 100vh;
 	background-color: rgb(252, 252, 205);
+	padding: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	justify-content: flex-start;
 }
 
+
+
+h1 {
+	margin-left: 300px;
+}
+
+content {
+	justify-items: center;
+
+}
 nav {
 	border-bottom: 2px solid rgb(15, 10, 1);
 	justify-content: flex-start;
@@ -61,7 +75,7 @@ ol {
 	justify-content: flex-start;
 	display: inline-flex;
 	justify-content:flex-start;
-	margin-left: 200px;
+	margin-left: 75px;
 }
 
 .button2 {
@@ -111,5 +125,5 @@ input {
 
 img {
 	max-width: 800px;
-	margin-left: 535px;
+	margin-left: 435px;
 }

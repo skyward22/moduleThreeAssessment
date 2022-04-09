@@ -1,22 +1,34 @@
-console.log("hello world");
+// console.log("hello world");
 
-
+// let sumbit = document.querySelector('submit')
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	
-	message.textContent = `Submit Successfull!`;
+	alert(`Submit Successfull!`);
 }
 
-let duck = document.querySelector('img');
+// sumbit.addEventListener("click", handleSubmit)
+let form = document.querySelector('form#contact');
 
-function duckResponse(event){
+form.addEventListener('submit', handleSubmit);
+
+
+
+
+
+
+function duckResponse(evt){
+	evt.preventDefault();
 	alert("You're awesome!")
 };
+
+let duck = document.querySelector('img');
 
 duck.addEventListener("mouseover", duckResponse)
 
 
-let form = document.querySelector('form#contact');
 
-form.document.addEventListener('alert', handleSubmit);
+
+
+
+
